@@ -56,7 +56,7 @@ const StyledMenu = styled(Link)(({ theme }) => ({
 const StyledLink = styled(Link)(({ theme }) => ({
     'img': {
         '@media(max-width : 600px)': {
-            width: '170px',
+            width: '230px',
             marginTop: '5px'
         }
     }

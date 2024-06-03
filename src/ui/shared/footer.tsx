@@ -100,6 +100,11 @@ const useStyles = makeStyles({
             backgroundColor:'#252525',
         }
 
+    },
+    logo__img:{
+        '@media(max-width : 600px)':{
+            width: '230px',
+        }
     }
 })
 
@@ -126,7 +131,7 @@ const Footer = () => {
                     <Grid container spacing={2}>
                         <Grid item lg={4} md={3.5} sm={12} xs={12}>
                             <Box className={classes.box__listAlign}>
-                                <Link href={'/'}><Image src={logo} alt={''} /></Link>
+                                <Link href={'/'}><Image className={classes.logo__img} src={logo} alt={''} /></Link>
                                 <Box className={classes.list} component={'ul'}>
                                     <Box className={classes.listBox} component={'li'}>
                                          <Typography fontSize={16}>{dis_text}</Typography>
@@ -158,9 +163,6 @@ const Footer = () => {
                                 <Box className={classes.list} component={'ul'}>
                                     <Box className={classes.listBox} component={'li'}>
                                         <Link className={classes.list__item} href="">Terms Of Use</Link>
-                                    </Box>
-                                    <Box className={classes.listBox} component={'li'}>
-                                        <Link className={classes.list__item} href="">Cookie Policy</Link>
                                     </Box>
                                     <Box className={classes.listBox} component={'li'}>
                                         <Link className={classes.list__item} href="">Privacy Policy</Link>

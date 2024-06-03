@@ -246,9 +246,9 @@ const Conduct = () => {
                                 <Link className={classes.btn} href={""}>
                                     <Typography>Learn More</Typography>
                                 </Link>
-                                <Link className={classes.btn2} href={""}>
+                                {/* <Link className={classes.btn2} href={""}>
                                     <Typography>MUMBLECHAT Paper</Typography>
-                                </Link>
+                                </Link> */}
                             </Box>
                         </Box>
                     </Box>

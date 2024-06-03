@@ -114,13 +114,13 @@ export default function Sidebar() {
                 >
                     <Link href={'#'} > <CloseIcon sx={{ color: '#3DC1F2' }} /> </Link>
 
-
+                    <Navbar />
 
 
                 </Box>
                  
                 <Box className={classes.mob}>
-                    <Navbar />
+                  
                     <LoginStyled
                         href={"/"}>
                         <Typography>Buy</Typography>

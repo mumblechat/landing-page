@@ -36,7 +36,7 @@ const ListBox = styled('ul')(({ theme }) => ({
 const ListItem = styled('li')(({ theme }) => ({
     'a': {
         padding: '12px 16px',
-        display: 'inline-block',
+        display: 'block',
         color: theme.palette.primary.contrastText,
         textDecoration: 'none',
         borderRadius: '6px',
