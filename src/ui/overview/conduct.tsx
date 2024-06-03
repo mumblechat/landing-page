@@ -65,7 +65,7 @@ const useStyles = makeStyles({
     },
     btnWrap: {
         display: 'flex',
-        justifyContent: 'left',
+        justifyContent: 'center',
         alignItems: 'center',
         gap: '1.5rem',
         marginTop: '3rem',
@@ -242,7 +242,12 @@ const Conduct = () => {
                             </Box>
                         </Box>
                         <Box className={classes.listItem_wrp} component={'li'}>
-                            <Box className={classes.btnWrap}>
+                            
+                        </Box>
+                    </Box>
+
+                </Box>
+                <Box className={classes.btnWrap}>
                                 <Link className={classes.btn} href={""}>
                                     <Typography>Learn More</Typography>
                                 </Link>
@@ -250,11 +255,6 @@ const Conduct = () => {
                                     <Typography>MUMBLECHAT Paper</Typography>
                                 </Link> */}
                             </Box>
-                        </Box>
-                    </Box>
-
-                </Box>
-
             </Box>
         </>
     )

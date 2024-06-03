@@ -105,6 +105,15 @@ const useStyles = makeStyles({
         '@media(max-width : 600px)':{
             width: '230px',
         }
+    },
+    btm_line:{
+        background:'linear-gradient(90deg, #101012, #00ffff99,#101012)',
+        width:'100%',
+        height:'1px',
+        margin:'1.5rem 0rem',
+    },
+    btm_line_box:{
+        textAlign:'center'
     }
 })
 
@@ -162,10 +171,10 @@ const Footer = () => {
                                 <Typography className={classes.heading__align} variant='h5'>Legals</Typography>
                                 <Box className={classes.list} component={'ul'}>
                                     <Box className={classes.listBox} component={'li'}>
-                                        <Link className={classes.list__item} href="">Terms Of Use</Link>
+                                        <Link className={classes.list__item} href="/termofuse" target='_black'>Terms Of Use</Link>
                                     </Box>
                                     <Box className={classes.listBox} component={'li'}>
-                                        <Link className={classes.list__item} href="">Privacy Policy</Link>
+                                        <Link className={classes.list__item} href="/privacypolicy">Privacy Policy</Link>
                                     </Box>
 
                                 </Box>
@@ -187,6 +196,10 @@ const Footer = () => {
                             </Box>
                         </Grid>
                     </Grid>
+                    <Box className={classes.btm_line_box}>
+                        <Box className={classes.btm_line}/>
+                        <Typography>© 2024 Mumblechat.com | All rights reserved</Typography>
+                    </Box>
                 </Box>
             </Box>
         </>
