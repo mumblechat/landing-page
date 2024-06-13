@@ -123,7 +123,7 @@ const Countribution = () => {
                 </Box>
                 <Box>
                     <Box className={classes.btnWrap}>
-                        <Link className={classes.btn} href={""}>
+                        <Link className={classes.btn} href={"https://ico.mumblechat.com/"} target="_blank">
                             <Typography>Join Private Sale</Typography>
                         </Link>
                         <Link className={classes.btn2} href={""}>

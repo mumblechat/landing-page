@@ -131,7 +131,7 @@ export default function Header() {
                 >
 
                     <LoginStyled
-                        href={"/"}>
+                        href={"https://ico.mumblechat.com"} target="_blank">
                         <Typography>Buy</Typography>
                     </LoginStyled>
 

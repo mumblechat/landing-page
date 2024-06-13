@@ -9,6 +9,7 @@ import Conduct from "./conduct";
 import Roadmap from "./roadmap";
 import Faqs from "./faqs";
 import Footer from "../shared/footer";
+import Application from "./application";
 
 
 
@@ -38,6 +39,7 @@ const Homecmp = () => {
                 <Box component={'section'} id="private"> <AutoSlider /></Box>
                 <Box component={'section'} id="roadmap"> <Roadmap /></Box>
                 <Box component={'section'} id="tokenomics"> <Conduct /></Box>
+                <Application />
                 <Box component={'section'} id="faq"> <Faqs /></Box>
                 <Footer />
             </Box>

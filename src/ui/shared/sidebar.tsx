@@ -122,7 +122,7 @@ export default function Sidebar() {
                 <Box className={classes.mob}>
                   
                     <LoginStyled
-                        href={"/"}>
+                       href={"https://ico.mumblechat.com"} target="_blank">
                         <Typography>Buy</Typography>
                     </LoginStyled>
                 </Box>
