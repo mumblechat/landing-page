@@ -126,7 +126,7 @@ const Platform = () => {
                             <Image src={pdf} alt={""} />
                             <Typography> MMCT Whitepaper</Typography>
                         </Link>
-                        <Link className={classes.btn2} href={"ICO MMCT Whitepaper.pdf"} target="_blank">
+                        <Link className={classes.btn2} href={"ICO Whitepaper MMCT.pdf"} target="_blank">
                             <Image src={pdf2} alt={""} />
                             <Typography>MMCT ICO Whitepaper</Typography>
                         </Link>
